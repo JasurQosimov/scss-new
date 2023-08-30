@@ -1,0 +1,72 @@
+.project {
+    position: absolute;
+    width: 1150px;
+    height: 1024px;
+    margin-top: 1024px;
+    background-image: url('../../assets/svg/background.svg');
+    background-repeat: repeat;
+}
+
+.projects-img {
+    position: absolute;
+    margin-top: 250px;
+  
+}
+.pro-btn{
+   
+    margin-top: 340px;
+}
+.project-btns{
+   border-radius: 24px;
+padding: 10px 32px;
+gap: 16px;
+
+}
+.color-btn{
+  
+    background: var(--color-3, #00ADB5);
+}
+.project-cards{
+    display: flex;
+gap: 50px;
+margin-top: 40px;
+}
+.card-1{
+
+width: 351px;
+height: 280px;
+padding: 61px 52px 61px 51px;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+background: rgba(57, 62, 70, 0.50);
+backdrop-filter: blur(2px);
+}
+.card-2{
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 351px;
+height: 280px;
+padding: 61px 52px 61px 51px;
+border-radius: 16px;
+background: rgba(57, 62, 70, 0.50);
+backdrop-filter: blur(2px);
+}
+.card-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 351px;
+height: 280px;
+padding: 61px 52px 61px 51px;
+border-radius: 16px;
+background: rgba(57, 62, 70, 0.50);
+backdrop-filter: blur(2px);
+}
+.project-img-2{
+    width: 368px;
+height: 181px;
+flex-shrink: 0;
+   right: 0;
+}

@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.box {
+  width: 1120px;
+  height: 620px;
+  background-image: url("../../assets/img/hero-bg-img.png");
+  background-size: cover;
+  border-radius: 20px;
+}
+.box .box-btn {
+  width: 184px;
+  height: 28px;
+  margin-top: 83px;
+  margin-left: 60px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.2);
+}
+.box .box-h1 {
+  width: 477px;
+  color: #2A323C;
+  margin-left: 60px;
+  margin-top: 18px;
+  text-shadow: 2px 3px 4px rgba(10, 25, 48, 0.28);
+  font-family: Open Sans;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 121.212% */
+}
+.box .box-h1-span {
+  color: #1252AE;
+  font-family: Open Sans;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+.box .box-p {
+  width: 400px;
+  margin-left: 60px;
+  margin-top: 28px;
+  color: #2A323C;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box .box-btns {
+  gap: 8px;
+  margin-left: 60px;
+  margin-top: 70px;
+}
+.box .box-btn-1 {
+  width: 55px;
+  height: 29px;
+  font-family: Open Sans;
+  width: 55px;
+  height: 29px;
+  flex-shrink: 0;
+  color: white;
+  background-color: #1252AE;
+}
+.box .box-btn-2 {
+  width: 55px;
+  height: 29px;
+  font-family: Open Sans;
+  width: 55px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #1252AE;
+}
+.box .box-inputs {
+  width: 670px;
+  height: 66px;
+  margin-top: 14px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+.box .box-input {
+  width: 160px;
+  height: 38px;
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.box .input-p {
+  position: absolute;
+  left: 30px;
+  margin-top: 5px;
+}
+.box .dropdown {
+  border-radius: 4px;
+  background-color: #fff;
+  color: rgb(105, 113, 126);
+  padding-right: 12px;
+}
+.box .box-input-img {
+  margin-top: 10px;
+  position: absolute;
+  background-color: white;
+  margin-left: 12px;
+  z-index: 10;
+}
+.box .box-btn-3 {
+  width: 112px;
+  height: 38px;
+  margin-top: 16px;
+  border-radius: 4px;
+  background: #1252AE;
+  box-shadow: 0px 3px 3px 0px rgba(9, 23, 44, 0.25);
+  margin-bottom: 18px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box .box-input-img-2 {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-bottom: 1px;
+}
+
+.property-box {
+  width: 1120px;
+  height: 380.213px;
+  margin-top: 80px;
+}
+.property-box .property-box-h1 {
+  color: #1252AE;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.property-box .property-box-h1-span {
+  color: #2A323C;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.property-box .cards {
+  margin-left: 60px;
+  margin-top: 65px;
+  display: flex;
+  gap: 75px;
+  align-items: center;
+}
+.property-box .card-1 {
+  align-items: center;
+}
+.property-box .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 23px;
+  fill: linear-gradient(141deg, rgba(18, 82, 174, 0.3) 0%, rgba(18, 82, 174, 0) 100%);
+  box-shadow: 0px 30px 31px 0px rgba(18, 82, 174, 0.2) inset;
+}
+.property-box .card1-h4 {
+  margin-top: 17px;
+  color: #2A323C;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.property-box .h4-2-1 {
+  margin-left: 18px;
+}
+.property-box .h4-2 {
+  margin-left: 19px;
+}
+.property-box .card1-btn {
+  width: 104px;
+  height: 26px;
+  margin-left: 23px;
+  margin-top: 13px;
+  border-radius: 50px;
+  background: #EBEEF2;
+  box-shadow: 0px 2px 1px 0px rgba(36, 45, 60, 0.2);
+}
+.property-box .slider {
+  margin-top: 60px;
+  margin-left: 525px;
+}/*# sourceMappingURL=main.css.map */

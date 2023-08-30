@@ -1,0 +1,135 @@
+.box{
+    width: 1120px;
+    height: 620px;
+    background-image: url("../../assets/img/hero-bg-img.png");
+background-size: cover;
+border-radius: 20px;
+
+.box-btn{
+    width: 184px;
+height: 28px;
+margin-top: 83px;
+margin-left: 60px;
+border-radius: 50px;
+border: 1px solid rgba(255, 255, 255, 0.25);
+background: rgba(255, 255, 255, 0.20);
+}
+.box-h1{
+    width: 477px;
+    color: #2A323C;
+    margin-left: 60px;
+    margin-top: 18px;
+text-shadow: 2px 3px 4px rgba(10, 25, 48, 0.28);
+font-family: Open Sans;
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 121.212% */
+}
+.box-h1-span{
+    color: #1252AE;
+font-family: Open Sans;
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px;
+}
+.box-p{
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 28px;
+    color: #2A323C;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.box-btns{
+    gap: 8px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.box-btn-1{
+    width: 55px;
+height: 29px;
+font-family: Open Sans;
+width: 55px;
+height: 29px;
+flex-shrink: 0;
+color: white;
+background-color:#1252AE;
+}
+.box-btn-2{
+    width: 55px;
+height: 29px;
+    font-family: Open Sans;
+width: 55px;
+height: 29px;
+flex-shrink: 0;
+color: #1252AE;
+}
+.box-inputs{
+    width: 670px;
+height: 66px;
+margin-top: 14px;
+margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    border-radius: 6px;
+border: 1px solid rgba(255, 255, 255, 0.25);
+background: rgba(255, 255, 255, 0.20);
+backdrop-filter: blur(4px);
+
+}
+.box-input{
+    width: 160px;
+height: 38px;
+border-radius: 4px;
+margin-top: 16px;
+margin-left: 10px;
+}
+.input-p{ 
+position: absolute;
+left: 30px;
+    margin-top: 5px;
+  
+    
+}
+.dropdown{
+    border-radius: 4px;
+    background-color: #fff;
+ color: rgba(105, 113, 126, 1);
+    padding-right: 12px;
+}
+.box-input-img{
+   margin-top: 10px;
+    position: absolute;
+    background-color: white;
+    margin-left: 12px;
+    z-index: 10;
+}
+.box-btn-3{
+    width: 112px;
+height: 38px;
+margin-top: 16px;
+border-radius: 4px;
+background: #1252AE;
+box-shadow: 0px 3px 3px 0px rgba(9, 23, 44, 0.25);
+margin-bottom: 18px;
+color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.box-input-img-2{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-bottom: 1px;
+}
+}

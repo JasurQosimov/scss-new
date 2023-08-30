@@ -1,0 +1,73 @@
+.property-box{
+    width: 1120px;
+height: 380.213px;
+margin-top: 80px;
+// background-color: gold;
+
+.property-box-h1{
+    color: #1252AE;
+font-family: Open Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.property-box-h1-span{
+    color: #2A323C;
+font-family: Open Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cards{
+    margin-left: 60px;
+    margin-top: 65px;
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+.card-1{
+    align-items: center;
+
+}
+.img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+margin-left: 23px;
+    fill: linear-gradient(141deg, rgba(18, 82, 174, 0.30) 0%, rgba(18, 82, 174, 0.00) 100%);
+box-shadow: 0px 30px 31px 0px rgba(18, 82, 174, 0.20) inset;
+
+}
+.card1-h4{
+    margin-top: 17px;
+    color: #2A323C;
+
+font-family: Open Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.h4-2-1{
+    margin-left: 18px;
+}
+.h4-2{
+    margin-left: 19px;
+}
+.card1-btn{
+    width: 104px;
+height: 26px;
+margin-left: 23px;
+margin-top: 13px;
+border-radius: 50px;
+background: #EBEEF2;
+box-shadow: 0px 2px 1px 0px rgba(36, 45, 60, 0.20);
+}
+.slider{
+    margin-top: 60px;
+    margin-left: 525px;
+}
+}

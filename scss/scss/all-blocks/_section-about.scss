@@ -1,0 +1,79 @@
+.hero-box{
+    margin-top: 600px;
+    
+    .hero-text{
+    padding-top: 192px;
+    position: absolute;
+    .hero-h{
+        width:322px ;
+        height: 96px;
+    }
+    .hero-p{
+        width: 389px;
+        color: rgba(238, 238, 238, 0.75);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    }
+    .hero-img-1{
+        margin-bottom: 70px;
+    }
+    .hero-img-2{
+      position: absolute;  
+      margin-left: 290px;
+      margin-top: 110px;
+    }
+    .hero-img-3{
+        position: absolute;
+     margin-top: 410px;
+     margin-left: 28px;   
+    }
+    
+    
+    
+    }
+    .hero-mages-img{
+        position: absolute;
+        width: 665.333px;
+    height: 499px;
+    flex-shrink: 0;
+    margin-top: 280px;
+    margin-left: 520px;
+    }
+    .hero-mages-img-2{
+       position: absolute;
+       width: 412.677px;
+    height: 353.143px;
+    flex-shrink: 0;
+    margin-top: 500px;
+    margin-left: 620px;
+    }
+    
+    
+    }
+    
+    
+    .hero-box-2{
+        position: absolute;
+       display: flex;
+       flex-direction: row;
+        height: 1024px;
+        width: 1340px;
+    margin-top: 1000px;
+    background-image: url("../../assets/svg/background.svg");
+    background-repeat: repeat;
+    
+    
+  
+    }
+    .hero-box-2-img{
+        width: 514px;
+        height: 320px;
+        margin: 0 auto;
+        background-image: url("../../assets/svg/background.svg");
+        background-repeat: repeat;
+        background-position: center;
+    
+    }

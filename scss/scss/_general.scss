@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-1, #222831);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: inline-block;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
